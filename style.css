@@ -1,7 +1,54 @@
 body {
     font-family: 'Prompt', sans-serif;
 }
+#menu_bar{
+    position: relative;
+    left: -8%;
+    margin-top: 10px;
+}
+#text_help{
+    position: relative;
+    left: 75%;
+}
+/* #menu_bar:hover{
+    color: aqua;
+} */
+#login_bar {
+    position: relative;
+    left: 5%;
+    display: flex;
+    width: 110%;
+    height: 74px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.f-size-1-2{
+    font-size: 1.2em;
+}
+#bg{
+    margin-bottom: 20px;
+    width: 100%;
+    z-index: -1;
+}
+#text_search{
+    position: absolute;
+    top: 40%;
+    left: 26%;
+    width: 45%;
+    height: 8%;
+    padding-right: 65px;
+}
+#icon_search{
+    position: absolute;
+    top:42.5%;
+    left: 68.5%;
+    z-index: 1;
+    font-size: 1.5em;
+    color: #888489;
 
+}
 td {
     padding: 0;
 }
