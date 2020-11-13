@@ -68,7 +68,7 @@ td {
 
 .cropped1 {
     /* width of container */
-    height: 250px;
+    height: 180px;
     /* height of container */
     object-fit: cover;
 }
