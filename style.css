@@ -27,10 +27,32 @@ body {
 .f-size-1-2{
     font-size: 1.2em;
 }
+.f-size-0-8{
+    font-size: 0.8em;
+}
+.mr-b-2{
+    margin-bottom: 2em;
+}
 #bg{
-    margin-bottom: 20px;
     width: 100%;
     z-index: -1;
+}
+#img_arrow{
+    width: 1em;
+    transition: 0.5s;
+}
+#type_product_part2{
+    display: none;
+    transition: 1s;
+}
+.size-5em{
+    width: 5em;
+}
+.mr-r-5{
+    margin-right: 5em;
+}
+.mr-r-0-3{
+    margin-right: 0.3em;
 }
 #text_search{
     position: absolute;

@@ -16,6 +16,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Kaidee.com</title>
 </head>
 
@@ -45,7 +46,7 @@
                     src="https://ast.kaidee.com/blackpearl/_static/images/shared/icon/kaidee-outlined-chat-28x28.svg" />
             </div>
             <div class="col-2.5">
-                <a class="f-size-1-2 btn" href="/login.html" >เข้าสู่ระบบ / สมัครสมาชิก</a>
+                <a class="f-size-1-2 btn" href="login.html">เข้าสู่ระบบ / สมัครสมาชิก</a>
             </div>
             <div class="col-1.5">
                 <button type="button" class="btn btn-primary f-size-1-2">ลงขาย</button>
@@ -53,16 +54,87 @@
         </div>
 
     </div>
-    <div>
-        <img id="bg" src="/images/bg.jpg" alt="">
-            <i id="icon_search" class="fa fa-search"></i>
+    <div class="mr-b-2">
+        <img id="bg" src="images/bg.jpg" alt="">
+        <i id="icon_search" class="fa fa-search"></i>
         <input id="text_search" type="search" class="form-control f-size-1-2" placeholder="คุณกำลังมองหาอะไรอยู่?">
-        
-    </div>
 
-    <div class="d-flex justify-content-center ">
+    </div>
+    <div class="d-flex justify-content-center mr-b-2">
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/car.png" alt="">
+            <span class="f-size-0-8">รถมือสอง</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/motorcycle.png" alt="">
+            <span class="f-size-0-8">มอเตอร์ไซค์</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/home.png" alt="">
+            <span class="f-size-0-8">อสังหาริมทรัพย์</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/mobile.png" alt="">
+            <span class="f-size-0-8">มือถือ แท็บเล็ต</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/wheel.png" alt="">
+            <span class="f-size-0-8">อะไหล่รถ ประดับยนต์</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/Washing machine.png" alt="">
+            <span class="f-size-0-8">เครื่องใช้ไฟฟ้า</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/pet.png" alt="">
+            <span class="f-size-0-8">สัตว์เลี้ยง</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/garden.png" alt="">
+            <span class="f-size-0-8">บ้านและสวน</span>
+        </div>
+    </div>
+    <div class="justify-content-center mr-b-2" id="type_product_part2">
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/Amulets.png" alt="">
+            <span class="f-size-0-8">พระเครื่อง</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/computer.png" alt="">
+            <span class="f-size-0-8">คอมพิวเตอร์</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/bike.png" alt="">
+            <span class="f-size-0-8">จักรยาน</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/truck.png" alt="">
+            <span class="f-size-0-8">รถบรรทุก และรถเครื่อง</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/watch.png" alt="">
+            <span class="f-size-0-8">นาฬิกา</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/shirt.png" alt="">
+            <span class="f-size-0-8">เสื้อผ้า เครื่องแต่งกาย</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/music.png" alt="">
+            <span class="f-size-0-8">เครื่องดนตรี</span>
+        </div>
+        <div class="d-flex flex-column justify-content-center text-center mr-r-5">
+            <img class="size-5em mx-auto" src="images/Collectibles.png" alt="">
+            <span class="f-size-0-8">ของสะสม</span>
+        </div>
+    </div>
+    <div class="text-center mr-b-2">
+        <span onclick="ShowType()" type="subtitle" class="text-muted mr-r-0-3">ดูทั้งหมด (16 หมวดหมู่) </span>
+        <img onclick="ShowType()" id="img_arrow" src="images/arrow.png" alt="">
+    </div>
+    <div class="d-flex justify-content-center">
         <div class="d-flex flex-column" style="width: 75%;">
-            <div class="h3 text-left d-flex justify-content-start" style="margin-left: 10px;">
+            <div  class="h3 text-left d-flex justify-content-start" style="margin-left: 10px;">
                 ผลการค้นหายอดนิยม
             </div>
             <div class="d-flex">
@@ -203,5 +275,5 @@
         </div>
     </div>
 </body>
-
+<script src="script.js"></script>
 </html>
